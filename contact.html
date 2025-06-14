@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <!-- 
-🚨 ATTENTION AI CODERS: READ README.md FIRST! 🚨
-This is a TEMPLATE for landscaping/property services companies.
-MUST replace "Placeholder" with client company name throughout ALL files.
-See README.md for complete customization instructions.
+🚨 CUSTOMIZED FOR KAEVIN'S HANDYMAN SERVICES 🚨
+Kaevin Dixon - UBC Civil Engineering Student
+Summer Handyman & Property Services
+Contact for residential construction, repair, and maintenance work.
 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Placeholder Property Services</title>
+    <title>Contact Us - Kaevin's Handyman Services</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <h1><a href="index.html">PLACEHOLDER</a></h1>
-                <p>property maintenance</p>
+                <h1><a href="index.html">KAEVIN'S</a></h1>
+                <p>handyman services</p>
             </div>
             <nav>
                 <ul>
@@ -34,18 +34,35 @@ See README.md for complete customization instructions.
         <div class="spacer"></div>
         <section id="contact-main">
             <div class="container">
-                <h2>Contact Us</h2>
-                <p style="text-align: center; margin-bottom: 3rem; font-size: 1.125rem; color: var(--text-medium);">We'd love to hear from you! Reach out for a free estimate or any inquiries.</p>
+                <h2>Contact Kaevin</h2>
+                <p style="text-align: center; margin-bottom: 3rem; font-size: 1.125rem; color: var(--text-medium);">
+                    Ready to get your project started? I'd love to hear from you! Get a free estimate and let's discuss how I can help with your handyman needs.
+                </p>
                 
                 <div class="contact-details">
-                    <h3>Direct Contact</h3>
-                    <p><strong>Phone:</strong> (555) 123-4567</p>
-                    <p><strong>Email:</strong> <a href="mailto:info@placeholderservices.com">info@placeholderservices.com</a></p>
-                    <p>We typically respond within 24 business hours.</p>
+                    <h3>Get in Touch</h3>
+                    <p><strong>Phone:</strong> (604) 555-WORK</p>
+                    <p><strong>Email:</strong> <a href="mailto:kaevin.handyman@gmail.com">kaevin.handyman@gmail.com</a></p>
+                    <p><strong>Available:</strong> Summer 2024 (before returning to UBC)</p>
+                    <p>I typically respond within 24 hours and offer free estimates for all projects.</p>
+                    
+                    <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(168, 213, 186, 0.1); border-radius: var(--radius-md);">
+                        <h4 style="color: var(--primary-green); margin-bottom: 1rem;">Why Choose Kaevin's Services?</h4>
+                        <ul style="color: var(--text-medium); margin-left: 1rem;">
+                            <li>UBC Civil Engineering student with practical construction experience</li>
+                            <li>Years of hands-on experience in residential construction & demolition</li>
+                            <li>Professional quality work at student-friendly rates</li>
+                            <li>Flexible scheduling to fit your timeline</li>
+                            <li>Fully committed to your project's success</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="contact-form">
-                    <h3>Send Us a Message</h3>
+                    <h3>Send Me a Message</h3>
+                    <p style="margin-bottom: 1.5rem; color: var(--text-medium);">
+                        Tell me about your project and I'll get back to you with a free estimate!
+                    </p>
                     <form id="contact-form">
                         <div>
                             <label for="name">Name:</label>
@@ -56,10 +73,28 @@ See README.md for complete customization instructions.
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div>
-                            <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="phone">Phone (optional):</label>
+                            <input type="tel" id="phone" name="phone">
                         </div>
-                        <button type="submit">Send Message</button>
+                        <div>
+                            <label for="project-type">Project Type:</label>
+                            <select id="project-type" name="project-type" style="width: 100%; padding: 0.75rem; border: 2px solid var(--soft-gray); border-radius: var(--radius-sm); font-family: var(--font-primary);">
+                                <option value="">Select a service...</option>
+                                <option value="trim">Trim Installation & Repair</option>
+                                <option value="caulking">Professional Caulking</option>
+                                <option value="drywall">Drywall Repair & Patching</option>
+                                <option value="demolition">Demolition Work</option>
+                                <option value="landscaping">Landscaping & Yard Work</option>
+                                <option value="paving">Paving Stone Installation</option>
+                                <option value="multiple">Multiple Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Project Description:</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your project, timeline, and any specific requirements..."></textarea>
+                        </div>
+                        <button type="submit">Send Message & Request Quote</button>
                     </form>
                     <p id="form-status"></p>
                 </div>
@@ -69,8 +104,8 @@ See README.md for complete customization instructions.
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Placeholder Property Services. All rights reserved.</p>
-            <p>Phone: (555) 123-4567 | Email: info@placeholderservices.com</p>
+            <p>&copy; 2024 Kaevin's Handyman Services. All rights reserved.</p>
+            <p>Phone: (604) 555-WORK | Email: kaevin.handyman@gmail.com</p>
         </div>
     </footer>
 
